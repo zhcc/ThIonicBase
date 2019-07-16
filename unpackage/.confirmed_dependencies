@@ -1,0 +1,20 @@
+{
+	"index.html": {
+		"resources": [
+			"js/app.js",
+			"templates/tab1-detail.html",
+			"templates/tab4.html",
+			"templates/tab1.html",
+			"js/routes.js",
+			"templates/tabs.html",
+			"templates/tab2.html",
+			"js/controllers.js",
+			"templates/tab3.html",
+			"js/socket.io.js",
+			"js/thpush.js",
+			"js/services.js",
+			"js/ionic.bundle.min.js",
+			"css/ionic.css"
+		]
+	}
+}

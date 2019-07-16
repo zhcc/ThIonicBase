@@ -1,0 +1,23 @@
+<ion-header-bar align-title="center" class="bar-dark">
+	<div class="buttons">
+		<button class="button button-icon icon ion-arrow-left-c" ui-sref="list">
+        </button>
+	</div>
+	<h1 class="title">{{name}}</h1>
+</ion-header-bar>
+<ion-content>
+<p>
+	<button ng-click="openPopover($event)">打开浮动框</button>
+</p>
+
+</ion-content>
+<script id="my-popover.html" type="text/ng-template">
+	<ion-popover-view>
+		<ion-header-bar>
+			<h1 class="title">我的浮动框标题</h1>
+		</ion-header-bar>
+		<ion-content>
+			Hello!
+		</ion-content>
+	</ion-popover-view>
+</script>
